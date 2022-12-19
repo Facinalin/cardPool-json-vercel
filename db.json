@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "email": "lee25@gmail.com",
+      "password": "$2a$10$SZ9QkPnP4qIM2OlROIFv2OUDwQcs/ut/XKfleNVzRImo8kWBM0tAG",
+      "id": 1,
+      "isAdmin": true
+    },
+    {
+      "email": "rem199@gmail.com",
+      "password": "$2a$10$kMVfEe8sMLL9.37428VPr.lIWentGE5M1NooYY5YrABXYfahvxLb6",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
+  "sights": [
+    {
+      "id": 1,
+      "title": "海雲台列車",
+      "description": "位於高達35公尺的懸崖上的天空步道，放眼望去一片遼闊的海景，從透明的玻璃往下看還能看到海浪拍打著岩石，是一種刺激又新奇的體驗。",
+      "imgUrl": "https://i.imgur.com/evsWPb8.jpg",
+      "blogUrl": "https://blog.kkday.com/4028/asia-korea-busan-must-go#hai_yun_taihaeundae",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "釜山塔＆龍頭山公園",
+      "description": "釜山塔高約120公尺，雖然建築本身不是很高，但因為位於地勢較高的龍頭山公園裡，所以在它的360度展望台就足夠鳥瞰整個釜山景色",
+      "imgUrl": "https://i.imgur.com/BfQMuvo.jpg",
+      "blogUrl": "https://mimihan.tw/busan-tower/",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "甘川洞文化村",
+      "description": "甘川文化村是早期韓戰時難民們聚集所形成的村莊，而後來透過藝術團體的推動之下，逐漸改造成如今色彩繽紛、童趣滿點的釜山景象，也成功帶起了當地的觀光熱潮。",
+      "imgUrl": "https://i.imgur.com/dOYAYOI.jpg",
+      "blogUrl": "https://mimihan.tw/busan-gamcheondong/",
+      "userId": 2
+    },
+    {
+      "title": "The Bay 101",
+      "description": "依山傍海的釜山，海雲臺港邊從早到晚滿是逗留賞景的情侶，沒有地震影響，高樓大廈像是樂高積木一樣，一座一座堆疊而起，夜間歸家而點的燈火，成了網美們最愛的背景牆，這裡是Instagram上最火紅的釜山景點",
+      "imgUrl": "https://i.imgur.com/VnubH4K.jpg",
+      "blogUrl": "https://journey.tw/the-bay-101/",
+      "userId": "1",
+      "id": 6
+    },
+    {
+      "title": "釜山塔＆龍頭山公園",
+      "description": "釜山塔高約120公尺，雖然建築本身不是很高，但因為位於地勢較高的龍頭山公園裡，所以在它的360度展望台就足夠鳥瞰整個釜山景色",
+      "imgUrl": "https://i.imgur.com/BfQMuvo.jpg",
+      "blogUrl": "https://mimihan.tw/busan-tower/",
+      "userId": "1",
+      "id": 8
+    },
+    {
+      "title": "五六島天空步道 오륙도스카이워크",
+      "description": "位於高達35公尺的懸崖上的天空步道，放眼望去一片遼闊的海景，從透明的玻璃往下看還能看到海浪拍打著岩石，是一種刺激又新奇的體驗。",
+      "imgUrl": "https://blog.kkday.com/wp-content/uploads/DSCF0507.jpg",
+      "blogUrl": "https://blog.kkday.com/4028/asia-korea-busan-must-go#wu_liu_dao_tian_kong_bu_dao_olyugdoseukaiwokeu",
+      "userId": 2,
+      "id": 9
+    }
+  ],
+  "likes": [
+    {
+      "sightId": "3",
+      "userId": "1",
+      "id": 1
+    },
+    {
+      "sightId": "4",
+      "userId": "1",
+      "id": 2
+    },
+    {
+      "sightId": "9",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "sightId": "3",
+      "userId": "2",
+      "id": 4
+    }
+  ]
+}
