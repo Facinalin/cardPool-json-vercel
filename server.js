@@ -7,11 +7,6 @@ const db = require("./db.json");
 const router = jsonServer.router(db);
 const middlewares = jsonServer.defaults();
 
-const authConfig = require({
-    tokenExpiration: '48h' // 修改註冊帳號及密碼保留的時間為1小時
-  });
-  
-server.use(authConfig);
 server.use(cors())
 server.use(middlewares)
 server.db = router.db;
